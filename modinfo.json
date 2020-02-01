@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "barbed wire barricade",
+    "name": "Barbed Wire Barricade",
+    "authors": [ "Poop" ],
+    "description": "Barbed Wire BArricade.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

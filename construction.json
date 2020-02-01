@@ -1,0 +1,13 @@
+[
+  {
+    "type": "construction",
+    "description": "Build Barbed Wire Barricade",
+    "category": "OTHER",
+    "required_skills": [ [ "fabrication", 1 ] ],
+    "time": "20 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 6 ] ], [ [ "nail", 12 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_barricade_barbed_wire"
+  }
+]

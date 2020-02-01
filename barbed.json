@@ -1,0 +1,22 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_barricade_barbed_wire",
+    "name": "barbed wire barricade",
+    "symbol": "#",
+    "bgcolor": "blue",
+    "description": "A barbed wire barricade.",
+    "move_cost_mod": -1,
+    "coverage": 30,
+    "required_str": 5,
+    "flags": [ "TRANSPARENT", "SHARP", "THIN_OBSTACLE", "SHORT", "EASY_DECONSTRUCT", "BURROWABLE" ],
+    "examine_action": "barbed wire fence",
+    "deconstruct": { "items": [ { "item": "2x4", "count": 6 }, { "item": "nail", "charges": [ 6, 8 ] } ] },
+    "bash": {
+      "str_min": 3,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "2x4", "count": [ 2, 6 ] }, { "item": "nail", "charges": [ 4, 8 ] }, { "item": "splinter", "count": 1 } ]
+  }
+]
